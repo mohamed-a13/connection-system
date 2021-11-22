@@ -1,0 +1,13 @@
+.container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-check:focus + .btn,
+.updateInfo:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
